@@ -1,2 +1,2 @@
 # PYTHON-PRACTISE-2025
-Python Pracitse  and learing
+Devops Pracitse  and learing
