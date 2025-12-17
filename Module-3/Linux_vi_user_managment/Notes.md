@@ -31,11 +31,11 @@ grep "200" access.log
 Cut extracts specific sections of each line based on delimiters.
 
 Syntax
-cut -d "delimiter" -f field_number
+cut -d "delimiter" -f field_number file_name
 
 Example
 <span style="color:#ff7b00; font-weight:bold;"> To extract the 2nd column (space-separated): </span>
-cut -d " " -f 2 access.log
+cut -d " " -f2 access.log
 
 # 2. Understanding Pipe (|) Commands
 
@@ -54,7 +54,8 @@ awk 'pattern {action}' filename
 
 📌 Example: Print IP and Status Code
 
-<span style="color:#1abc9c; font-weight:bold;">Print the 3rd & 6th columns from a log file:</span>
+<span style="color:#1abc9c; font-weight:bold;">
+Print the 3rd & 6th columns from a log file:</span>
 
 awk '{print $3, $6}' access.log
 
@@ -126,7 +127,7 @@ Practice these commands regularly to gain confidence in real DevOps scenarios.
 
 ### DUMMY DATA FOR THIS LECTURE => dummy data
 
- cat > access.log << 'EOF'
+cat > access.log << 'EOF'
 2025-01-01 10:00:12  192.168.1.10   GET   /login           200 OK            Mozilla/5.0
 2025-01-01 10:00:15  192.168.1.11   GET   /home            200 OK            Mozilla/5.0
 2025-01-01 10:00:18  192.168.1.10   POST  /buy             500 ERROR         curl/7.74.0

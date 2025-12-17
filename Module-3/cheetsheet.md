@@ -10,12 +10,12 @@ cd dir	Change directory
 cd ..	Go up one level
 📂 File & Directory Operations
 Command	Meaning
-touch file	Create an empty file
+touch - file	Create an empty file
 mkdir dir	Create directory
-rm file	Delete file
+rm file - 	Delete file
 rm -r dir	Delete folder
 cp src dest	Copy file
-mv src dest	Move/Rename file
+mv src dest	- Move/Rename file
 cat file	View file
 nano file	Edit file
 🔍 Search
